@@ -1,0 +1,106 @@
+/*
+colors palette: {
+    Yellow: #EAC926;
+    Blue: #03264C;
+    Light Blue: #1259c3;
+    Dark Gray: #666;
+    Light Gray: #ebebeb;
+    Green: #39b54a;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.main-section {
+    width: 90%;
+    margin: auto
+}
+
+.paragraph {
+    font-size: 12px;
+}
+
+.discounts {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.description {
+    font-size: 16px;
+}
+.photo {
+    width: 200px;
+}
+
+.photo-product {
+    width: 200px;
+    padding: 20px;
+    background-color: #ebebeb;
+}
+
+.burger-menu {
+    width: 35px;
+    height: 35px;
+    background-color: #1259c3;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    border-radius: 15%;
+}
+
+.description{
+    display: none;
+}
+
+@media (min-width: 361px) {
+    .description{
+        display: block;
+    }
+
+    .burger-menu {
+        color: black;
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .product {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 769px) {
+
+    .burger-menu {
+        color: olive;
+        width: 60px;
+        margin: auto;
+    }
+}
+
